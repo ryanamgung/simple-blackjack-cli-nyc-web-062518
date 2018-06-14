@@ -46,7 +46,7 @@ def hit?(number)
     var = deal_card
     number = number + var
   elsif input == 's'
-    return
+    number
   else
     invalid_command
     prompt_user
