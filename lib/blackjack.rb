@@ -43,13 +43,16 @@ def hit?(number)
   prompt_user
   input = gets.chomp
   if input == 'h'
-    number = deal_card + number
+    var = deal_card
+    number = number + var
   elsif input == 's'
     return
   else
     invalid_command
     prompt_user
   end
+  
+  number
 end
 
 def invalid_command
