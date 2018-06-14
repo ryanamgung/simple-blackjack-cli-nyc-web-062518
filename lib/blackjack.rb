@@ -72,7 +72,6 @@ def runner
   until number >= 21
     hit?(number)
   end
-    end_game(number)
-  end
+  end_game(number)
 end
     
