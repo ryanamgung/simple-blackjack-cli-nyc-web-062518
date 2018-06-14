@@ -20,7 +20,7 @@ end
 
 def get_user_input
   # code #get_user_input here
-  user_input = gets.chomp
+  gets.chomp
 end
 
 def end_game(number)
@@ -41,7 +41,7 @@ def hit?(number)
   # code hit? here
   
   prompt_user
-  input = gets.chomp
+  input = get_user_input
   if input == 'h'
     var = deal_card
     number = number + var
